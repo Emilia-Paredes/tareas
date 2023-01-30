@@ -32,26 +32,29 @@ header img {
 
 h1 {
     text-align: left;
-    bottom: 440px;
+    bottom: 350px;
     position: relative;
     font-size: 70px;
-    left: 10px;
+    left: 150px;
     display: block;
 }
 
 nav {
-    display: block;
-    position: absolute;
-    top: 400px;
-    left: 190px;
+    display: inline-block;
+    position: relative;
+    top: -210px;
+    left: 300px;
     font-size: 25px;
-    width: 140px;
 }
 
 nav a {
-    display: block;
+    text-decoration: none;
+    display: inline-block;
     line-height: 70px;
     color: blue;
+    background: darkgrey;
+    padding: 0px 15px;
+    
 }
 
 .active {
@@ -68,20 +71,13 @@ aside img {
 }
 
 h3 {
-    width: 78%;
-    background: #000000;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 0px;
-    font-size: 25px;
-    position: absolute;
-    bottom: 285px;
+    display: none;
 }
 
 article {
     display: block;
     left: 400px;
-    top: 415px;
+    top: 500px;
     bottom: 0px;
     right: 190px;
     position: absolute;
@@ -89,7 +85,7 @@ article {
 
 div {
     position: absolute;
-    bottom: 135px;
+    bottom: 40px;
     left: 360px;
 }
 
