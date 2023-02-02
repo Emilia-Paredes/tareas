@@ -24,25 +24,25 @@ header {
 header img {
     height: 140px;
     text-align: end;
-    margin-right: 100px;
+    right: 250px;
     z-index: 5;
-    position: relative;
-    top: -80px;
+    position: absolute;
+    top: 300px;
 }
 
 h1 {
     text-align: left;
-    bottom: 440px;
-    position: relative;
+    top: 65px;
+    position: absolute;
     font-size: 70px;
-    left: 10px;
+    left: 175px;
     display: block;
 }
 
 nav {
     display: block;
     position: absolute;
-    top: 400px;
+    top: 440px;
     left: 190px;
     font-size: 25px;
     width: 140px;
@@ -68,29 +68,27 @@ aside img {
 }
 
 h3 {
-    width: 78%;
+    width: 100%;
     background: #000000;
     color: #FFFFFF;
     text-align: center;
     padding: 10px 0px;
     font-size: 25px;
-    position: absolute;
-    bottom: 285px;
+    top: 365px;
 }
 
 article {
     display: block;
     left: 400px;
-    top: 415px;
-    bottom: 0px;
+    top: 460px;
     right: 190px;
     position: absolute;
 }
 
 div {
     position: absolute;
-    bottom: 135px;
-    left: 360px;
+    top: 470px;
+    left: 380px;
 }
 
 #mail {
