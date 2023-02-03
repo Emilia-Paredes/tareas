@@ -8,7 +8,7 @@
 }
 
 body {
-    margin: 60px 150px 100px;
+    margin: 30px 150px;
 }
 
 figure img {
@@ -16,7 +16,7 @@ figure img {
     width: 78%;
     height: 300px;
     position: absolute;
-    bottom: 235px;
+    top: 130px;
 }
 
 header {
@@ -29,7 +29,7 @@ header img {
     margin-right: 100px;
     z-index: 5;
     position: absolute;
-    bottom: 50px;
+    top: 540px;
 }
 
 h1 {
@@ -43,11 +43,12 @@ h1 {
 }
 
 nav {
-    display: inline-block;
-    position: absolute;
-    right: 150px;
-    top: 110px;
     font-size: 22px;
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 110px;
+    text-align-last: end;
 }
 
 nav a {
@@ -83,21 +84,20 @@ h3 {
     padding: 10px 0px;
     font-size: 25px;
     position: absolute;
-    bottom: 230px;
+    top: 430px;
 }
 
 article {
     display: block;
     left: 400px;
-    top: 500px;
-    bottom: 0px;
+    top: 545px;
     right: 190px;
     position: absolute;
 }
 
 div {
     position: absolute;
-    bottom: 60px;
+    top: 565px;
     left: 360px;
 }
 
