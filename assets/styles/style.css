@@ -200,3 +200,10 @@ table th, td {
     display: flex;
     justify-content: space-between;
 }
+
+/* FORM */
+
+.form {
+    padding: 100px 0px 200px;
+    display: flex;
+}
