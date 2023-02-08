@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    display: block;
+    height: 390px;
+}
+
+.row {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    height: 110px;
+}
+
+.logo {
+    max-width: 120px;
+    align-self: center;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    align-self: center;
+    margin-right: 4rem;
+}
+
+.left-nav {
+    margin-right: 13rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+/* --------------FIGURE--------------- */
+
+figure > img {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 390px;
+}
+
+/* MAIN */
+
+main {
+    background: rgb(152,152,152);
+    background: linear-gradient(90deg, rgba(152,152,152,1) 0%, rgba(21,125,208,0.3449754901960784) 50%, rgba(152,152,152,1) 100%);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 250px 50px ;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
