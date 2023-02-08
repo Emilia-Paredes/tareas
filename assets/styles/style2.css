@@ -78,3 +78,66 @@ main {
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
 }
+
+/* GAME INFORMATION */
+
+.main-info {
+    width: 100%;
+    display: inline-flex;
+    text-align-last: center;
+}
+
+.top {
+    text-align-last: left;
+}
+
+table {
+    display:flex;
+    justify-content: center;
+}
+
+.add-info {
+    margin-top: 20px;
+    text-align-last: left;
+    white-space: pre-line;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* RULES */
+
+.center {
+    text-align: center;
+}
+
+.alphabet li, li::marker {
+    list-style-type: lower-latin;
+    font-weight: normal;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+/* FORM */
+
+.form {
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.form div {
+    padding: 10px;
+}
+
+.regis-table {
+    padding: 10px;
+    text-align-last: left;
+}
+
+.regis-table th {
+    padding: 5px;
+}
